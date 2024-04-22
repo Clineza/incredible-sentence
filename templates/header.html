@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- {{pagetitle}} is a Mustache variable and will be replaced
+        with the value from the associative array value from index.php-->
+        <title>Incredible Sentence | {{pagetitle}}</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <!-- Bootstrap -->
+        <link href="../bootstrap-5.0.0-beta2-dist/css/bootstrap.min.css" rel="stylesheet">
+        <script src="../bootstrap-5.0.0-beta2-dist/js/bootstrap.bundle.min.js"></script>
+        <!-- main.css -->
+        <link href="main.css" rel="stylesheet">
+        <link rel="icon" href="favicon.ico" type="image/ico">
+    </head>
+    <body>
+        <nav class="nav-section navbar navbar-expand-lg navbar-dark">
+            <a class="navbar-brand" href="../index.php"><img src="../images/logo.png" alt="icon image"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expaned="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link" href="../index.php"><p class="nav-color">Home</p></a>
+                    <a class="nav-link" href="../title.php"><p class="nav-color">Generate Sentence</p></a>
+                    <a class="nav-link" href="../contact.php"><p class="nav-color">Contact</p></a>
+                </div>
+            </div>
+        </nav>

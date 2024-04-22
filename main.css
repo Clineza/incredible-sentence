@@ -1,0 +1,157 @@
+
+.clear{
+    clear: both;
+    padding: 0;
+    margin: 0;
+}
+
+footer{
+    background: #52C694;
+    padding-bottom: 20px;
+}
+
+.nav-section{
+    padding-top: 10px;
+    height: 60px;
+    background: #43A67B;
+}
+
+.body-div{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.centered{
+    text-align: center;
+}
+
+/*** My CSS ***/
+.container-fluid{
+    overflow: auto;
+}
+
+a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #235740;
+}
+a:hover{
+    color: #F6FE69;
+}
+
+.navbar-brand{
+    margin-left: 10px;
+}
+
+.navbar-toggler{
+    margin-right: 10px; 
+    border: 3px solid #FFF;
+    background-color: #317A5A;
+}
+.navbar-toggler:hover{
+    background-color: #3C956E;
+}
+
+.navbar-nav{
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #43A67B; 
+}
+
+.nav-color{
+    color: #FFF;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-color:hover{
+    color: #317A5A;
+}
+
+.header{
+    background-color: #43A67B;
+    text-align: center;
+    overflow: visible;
+    padding-bottom: 1px;
+    margin-bottom: 5px;
+}
+.main-title{
+    font-size: 175%;
+    color: #235740;
+}
+
+.btn{
+    background-color: #43A67B; 
+    border-color: #43A67B;
+    margin-bottom: 30px;
+}
+.btn:hover{
+    background-color: #F6FE69;
+    border-color: #F6FE69;
+    color: #368864;
+}
+
+.try-again-btn:hover{
+    text-shadow: 0px 0px 0px #43A67B;
+}
+
+.home-div{
+    max-width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 6px;
+}
+.home-paragraph{
+    text-align: left;
+}
+
+.main-statement{
+    font-weight: bold;
+}
+
+.input-header{
+    color: #235740;
+}
+.input-div{
+    margin-bottom: 35px;
+}
+
+.not-valid{
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.main-image-div{
+    margin-bottom: 30px;
+}
+#main-image{
+    width: 100%;
+    height: auto;
+}
+
+#home-image{
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+#msg{
+    color: #DD5638;
+}
+
+@media (min-width: 950px) {
+    .container-fluid{
+        max-width: 40%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+     #home-image{
+        width: 50%;
+        height: auto;
+        float: left;
+        display: inline-block;
+        margin-right: 10px;
+    }
+}

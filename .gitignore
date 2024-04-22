@@ -1,0 +1,24 @@
+#ignore everything
+*
+#unignore things we want to track
+!*/
+!*.php
+!*.js
+!*.html
+!*.css
+!*.gif
+!*.ico
+!*.jpg
+!*.png
+
+# gitignore files are not usually included but I'm includeing it so you have
+# a starter file. You can leave it in your repo.
+!*.gitignore
+
+# if you use an IDE and it makes project files (it will)
+# make sure you IGNORE that directory here. for example
+# I use Netbeans and it makes a nbproject directory.
+# I ignore that with the following line. Unless
+# you use Netbeans, you can erase this line and/or
+# replace it with your IDE's project directory
+/nbproject

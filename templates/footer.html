@@ -1,0 +1,18 @@
+
+        <div class="clear"></div>
+        <div class="footer-div">
+            <footer class="centered">
+            <hr>
+            <!-- {{footertitle}} is a Mustache variable and will be replaced
+            with the value from the associative array value from index.php-->
+            <p>Copyright &copy; 2021 {{footertitle}} </p><br>
+            <a href="#top" class="to-top">To Top</a><br>
+            Local Server Time: {{localtime}}
+        </footer>
+        </div>
+        <script src="../jquery/jquery.min.js"></script>
+        {{#scripts}}
+        <script src="../{{pageScript}}" type="text/javascript"></script>
+        {{/scripts}}
+    </body>
+</html>

@@ -1,0 +1,19 @@
+
+<div class="body-div container-fluid">
+    <div class="input-div">
+        <h5 class="input-header">Your Sentence!</h5>
+        <p>{{sentence}}</p>
+        <p>{{lengthSentence}}</p>
+        <p>{{titleMessage}}</p>
+    </div>
+    {{#formOutputs}}
+    <div class="input-div">
+        <h5 class="input-header">{{nameHeader}}</h5>
+        <p>You entered: "{{name}}" for {{nameHeader}}</p>
+        <p>The length of your first input is: {{nameLength}}</p>
+    </div>
+    {{/formOutputs}}
+    <br>
+    <a href="{{formPage}}" class="btn btn-primary try-again-btn">Try again</a>
+    <br>
+</div>

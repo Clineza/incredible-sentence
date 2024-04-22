@@ -1,0 +1,19 @@
+
+
+
+<div class="body-div container-fluid">
+    <form id="{{formName}}-form" name="{{formName}}-form" action="{{processFile}}" method="post">
+        <div id="msg">
+            <!-- This is a blank area for us to talk to the use -->
+            
+        </div>
+        {{#formInputs}}
+        <div class="form-group">
+            <label class="input-label" for="{{name}}">{{holder}}</label>
+            <input type="text" id="{{name}}" class="form-control form-inputs" name="{{name}}" placeholder="Enter your {{holder}}: " maxlength="64"><br> 
+        </div>
+        {{/formInputs}}
+        <button type="button" id="send-btn" class="btn btn-primary">Submit</button>
+        <button type="button" id="clear-btn" class="btn btn-primary clear-btn">Clear</button>
+    </form>
+</div>
